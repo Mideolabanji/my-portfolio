@@ -1,3 +1,18 @@
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px !important;
+    margin-bottom: 8px !important;
+  }
+  h2 {
+    font-size: 35px !important;
+  }
+  .writers-portfolio,
+  .weather-app,
+  .yoghurt {
+    text-align: center !important;
+  }
+}
+
 :root {
   --body-element: center;
   --box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
