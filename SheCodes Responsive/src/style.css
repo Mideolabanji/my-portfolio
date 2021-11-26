@@ -1,0 +1,77 @@
+:root {
+  --body-element: center;
+  --box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+body {
+  text-align: var(--body-element);
+  font-family: sans-serif;
+}
+h6 {
+  margin-top: 4px;
+  margin-bottom: 27px;
+  font-size: 20px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 58px;
+  margin-bottom: 0px;
+  margin-top: -11px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-weight: 600;
+}
+p {
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+}
+.body {
+  margin-top: 100px;
+}
+.buttons {
+  margin-bottom: 50px;
+}
+.contact-button {
+  background: #885df1;
+  border: 1px solid #885df1;
+  color: white;
+  border-radius: 2px;
+  padding: 20px 8px;
+  box-shadow: var(--box-shadow);
+}
+.contact-link {
+  color: white;
+}
+.contact-button:hover {
+  color: #d1a0f1;
+}
+.about-button {
+  background: white;
+  color: #885df1;
+  border: 1px solid #885df1;
+  border-radius: 2px;
+  padding: 20px 8px;
+}
+.about-link {
+  color: #885df1;
+}
+.buttons button {
+  margin: 7px;
+}
+.writers-portfolio,
+.weather-app,
+.yoghurt {
+  text-align: left;
+}
+.portfolio-button,
+.weather-button,
+.yoghurt-button {
+  margin-top: 20px;
+  border: 1px solid #885df1;
+  background: #885df1;
+  color: white;
+}
