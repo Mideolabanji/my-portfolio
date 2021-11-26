@@ -11,6 +11,9 @@
   .yoghurt {
     text-align: center !important;
   }
+  .navbar {
+    padding-left: 0 !important;
+  }
 }
 
 :root {

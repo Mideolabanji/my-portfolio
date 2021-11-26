@@ -6,6 +6,9 @@
   .email-link {
     font-size: 23px !important;
   }
+  .navbar {
+    padding-left: 0 !important;
+  }
   .images img {
     margin-bottom: 30px !important;
   }
